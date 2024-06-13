@@ -12,9 +12,9 @@ jobs:
       - name: "Azure PowerShell login"
         uses: azure/login@v2
         with:
-          client-id: ${{ secrets.CLIENT_ID }}
-          tenant-id: ${{ secrets.TENANT_ID }}
-          subscription-id: ${{ secrets.SUBSCRIPTION_ID }}
+          client-id: "e3d783a1-2a4d-4e87-8462-dd300ff5bb7d"
+          tenant-id: "72f988bf-86f1-41af-91ab-2d7cd011db47"
+          subscription-id: "ddbfcfa6-7351-4df0-9d87-d70e8c1ee747"
           enable-AzPSSession: true
 
       - name: "Get resource groups"
